@@ -38,9 +38,7 @@ Btn.onclick = function () {
     if (!(minutes == 0 && seconds == 0)) {
       Btn.innerHTML = "Stop";
       start();
-    } else {
-      Btn.innerHTML = "Start";
-      stop();
+    } 
     }
-  }
+  
 };
