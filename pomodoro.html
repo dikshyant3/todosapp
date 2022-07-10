@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pomodoro timer</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial scale=1.0" />
+    <link rel="stylesheet" href="pomodoro.css" />
+    <link
+      rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="progress-bar">
+        <div class="timer">
+          <div id="time">
+            <p id="countdown">
+              <span id="minutes">25</span>
+              <span id="colon">:</span>
+              <span id="seconds">00</span>
+            </p>
+          </div>
+          <div>
+            <button id="button" onclick="start()">Start</button>
+            <span id="settings"><i class="fas fa-cog"></i></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="pomodoro.js"></script>
+  </body>
+</html>
